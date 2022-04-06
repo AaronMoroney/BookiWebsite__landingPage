@@ -60,7 +60,6 @@ nav {
 }
 
 .navLinksDiv ul li a:hover {
-    /*  border needs padding top | Trialing removing background below | working, Height needed */
     content: "";
     width: 100%;
     color: #0065FC;
@@ -73,7 +72,6 @@ nav {
     border-top-width: 2px;
     border-top-style: solid;
     border-top-color: #0065FC;
-    
 }
 
 /* filters */
@@ -205,7 +203,8 @@ nav {
 
     .logoDiv {
         display: flex;
-        width: 100%;  
+        width: 100%; 
+        height: 95px; 
         align-items: center;
         align-content: center;
         justify-content: center;  
@@ -217,12 +216,47 @@ nav {
     }
 
     .navLinksDiv {
-        width: 100%;
-        flex-grow:  1;
         text-align: center;
+    }
+
+    .navLinksDiv ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 20px;
+        position: relative;   
+        padding-top: 0px;
     }
     
     ul {
         padding-inline-start: 0px;
+    }
+
+    .navLinksDiv ul li:hover {
+        border-top: none;
+        border-top-width: none;
+        border-top-style: none;
+        border-top-color: none;;
+    }
+
+    .navLinksDiv ul li a:active ::before {
+        content: "";
+        width: 100%;
+        color:#F2F2F2;
+        display: block;
+        margin: 0;
+        border-top: #F2F2F2;
+        border-top-width: 100%px;
+        border-top-style: solid;
+    }
+
+    .navLinksDiv ul li a:active ::after {
+        content: "";
+        width: 100%;
+        color: #0065FC;
+        display: block;
+        margin: 0;
+        border-top:#0065FC;
+        border-top-width: 100%px;
+        border-top-style: solid;
     }
 }
