@@ -180,34 +180,41 @@ nav {
     /* some code */
 }
 
+
 @media screen and (max-width:766px) {
     body{
         margin-top: 28px;
         margin-left: 21px;
-        margin-right: 21px;;
+        margin-right: 21px;
+        max-width: fit-content;
     }
-
+    
     nav {
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        height: 132px;
-    }
-    .logoDiv {
-        width: 100%;
+        height: 131px;
     }
 
-    .logo{
-        width: 61px;
-        padding: 0;
+    .logoDiv {
+        display: flex;
+        width: 100%;  
+        align-items: center;
+        align-content: center;
+        justify-content: center;  
     }
+    
+    .logo {
+        padding: 0;
+        width: 86px;
+    }
+
     .navLinksDiv {
         width: 100%;
-        background-color: yellow;
         flex-grow:  1;
         text-align: center;
     }
-
+    
     ul {
         padding-inline-start: 0px;
     }
