@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h3 {
@@ -31,12 +31,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 79px;
+    height: 70px;
 }
 
 .logo {
     width: 86px;
-    height: px;
     padding: 0;
 }
 
@@ -181,18 +180,35 @@ nav {
     /* some code */
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:766px) {
+    body{
+        margin-top: 28px;
+        margin-left: 21px;
+        margin-right: 21px;;
+    }
+
     nav {
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        height: 271px;
+        height: 132px;
     }
     .logoDiv {
         width: 100%;
-        
+    }
+
+    .logo{
+        width: 61px;
+        padding: 0;
     }
     .navLinksDiv {
         width: 100%;
+        background-color: yellow;
+        flex-grow:  1;
+        text-align: center;
+    }
+
+    ul {
+        padding-inline-start: 0px;
     }
 }
