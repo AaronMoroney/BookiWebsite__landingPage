@@ -7,7 +7,7 @@ body {
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -17,6 +17,8 @@ h2 {
 
 h3 {
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 P {
@@ -304,6 +306,21 @@ footer {
     background-color: #F2F2F2;
     margin: 0-34.75px;
     height: 150px;
+    padding-bottom: 22.5px;
+}
+.footerItemDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 34.75px;
+    width: 690px;
+    height: 86px
+}
+
+.footerUl {
+    font-family: 'Raleway', sans-serif;
+    padding-inline-start: 0px;
+    list-style: none;
+    line-height: 30px;
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
