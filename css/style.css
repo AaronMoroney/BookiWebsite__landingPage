@@ -255,56 +255,107 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: aliceblue;
 }
 
 .activitiesCards {
     display: flex;
+    flex-direction: column;
     width: 210px;
-    height: 307px;
+    height: 308px;
     background-color: white;
     border-radius: 15px;  
+    overflow: hidden; 
 }
 
 .activitiesCards2 {
     display: flex;
+    flex-direction: column;
     width: 210px;
     height: 164px;
     background-color: white;
     border-radius: 15px;
-    
+    overflow: hidden;
 }
 
 .activitiesCards3 {
     display: flex;
+    flex-direction: column;
     width: 210px;
     height: 116px;
     background-color: white;
-    margin-top: 28px;
+    margin-top: 15px;
     border-radius: 15px;
+    overflow: hidden;
     
 }
 
 .activitiesCards5 {
     display: flex;
+    flex-direction: column;
     width: 210px;
     height: 134px;
     background-color: white;
     border-radius: 15px;
+    overflow: hidden;
     
 }
 
 .activitiesCards6 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 210px;
-    height: 146px;
-    margin-top: 28px;
+    height: 145px;
+    margin-top: 15px;
     background-color: white;
     border-radius: 15px;
+    overflow: hidden;
 }
 
+.activitiesTitle {
+    background-color: white;
+    height: 41px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 13px; 
+}
 
+.activitiesImg1 {
+    width: 208px;
+    height: 266px;
+    object-fit: cover;
+    object-position: center;
+}
+.activitiesImg2 {
+    width: 208px;
+    height: 123px;
+    object-fit: cover;
+    object-position: center;
+}
+.activitiesImg3 {
+    width: 208px;
+    height: 74px;
+    object-fit: cover;
+    object-position: center;
+}
+.activitiesImg4 {
+    width: 208px;
+    height: 266px;
+    object-fit: cover;
+    object-position: center;
+}
+.activitiesImg5 {
+    width: 208px;
+    height: 95px;
+    object-fit: cover;
+    object-position: center;
+}
+.activitiesImg6 {
+    width: 208px;
+    height: 106px;
+    object-fit: cover;
+    object-position: center;
+}
 
 footer {
     background-color: #F2F2F2;
