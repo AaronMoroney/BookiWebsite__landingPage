@@ -196,7 +196,6 @@ nav {
     border-radius: 20px;
     margin-right: 13px;
     padding: 0px 28px;
-
     flex-grow: 2;
 }
 
@@ -230,7 +229,6 @@ nav {
 
 .popularAccomodationsSection {
     flex-grow: 1;
-    
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-left: 13px;
@@ -310,7 +308,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 210px;
-    height: 164px;
+    height: 163px;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
@@ -321,9 +319,9 @@ nav {
     display: flex;
     flex-direction: column;
     width: 210px;
-    height: 116px;
+    height: 113px;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 29px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 5px 20px -9px rgba(0,0,0,0.29);
@@ -347,7 +345,7 @@ nav {
     flex-direction: column;
     width: 210px;
     height: 145px;
-    margin-top: 15px;
+    margin-top: 28px;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
@@ -355,11 +353,11 @@ nav {
 }
 
 .activitiesTitle {
-    background-color: white;
-    height: 41px;
+    
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 10px;
+    padding-bottom: 13px;
     padding-left: 13px; 
     box-shadow: 0px 5px 20px -9px rgba(0,0,0,0.29);
 }
