@@ -236,8 +236,8 @@ nav {
 }
 
 .regularCardsImage {
-   
-    width: 100%;
+    margin: 3px 3px 0px 3px;
+    
     height: 80px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
@@ -295,7 +295,7 @@ nav {
 
 .popularContentInfo {
     margin-top: 10px;
-    margin-left: 12px;
+    margin-left: 7px;
 }
 
 .popularContentTitle {
