@@ -442,7 +442,53 @@ footer {
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
-    /* some code */
+    /* tablet */
+
+    .accomodationsSection {
+        flex-direction: column;
+        height: 850px;
+    }
+    .regularAccomodationsContainer {
+        margin-right: 0px;
+    }
+
+    .popularAccomodationsSection {
+        margin-left: 0px;
+        margin-top: 10px;
+        
+    }
+
+    .popularCards {
+        width: 350px;
+    }
+
+    .popularContentImage {
+        width: 200px;
+    }
+
+    .activitiesSection {
+        height: 550px;
+    }
+
+    .activitiesGalleryContainer {
+        height: 500px;
+    }
+
+    .activitiesCardsSpan {
+        display: flex;
+        margin-top: 0px;
+    }
+
+    .activitiesImg6 {
+        width: 210px;
+        height: 95px;
+    }
+
+    .activitiesCards6 {
+        height: 134px;
+        margin-left: 30px;
+        margin-top: 0px
+    }
 }
 
 
