@@ -25,6 +25,7 @@ h4 {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 600;
+    margin-top: 15px;
 }
 
 P {
@@ -201,14 +202,15 @@ nav {
 
 .cardsContainer {
     width: 550px;
-    height: 295px;
+    height: 310px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: space-between;
 }
 
 .regularCards {
-    height: 136px;
+    height: 145px;
     width: 170px;
     background-color: white;
     border-radius: 15px;
@@ -221,15 +223,25 @@ nav {
 }
 
 .regularCardsInfo {
-    line-height: 3px;
-    margin-left: 10px;
+    line-height: 0.5px;
+    margin-left: 10px; 
 }
 .fa-star {
     color: #F2F2F2;
+    font-size: x-small;
 }
 
 .checked {
     color: #0065FC;
+}
+
+.regularCardsImage {
+   
+    width: 100%;
+    height: 80px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* popular Accomodations section */
@@ -272,7 +284,7 @@ nav {
 
 .popularContentImage {
     margin-top: 3px;
-    margin-left: 2px;
+    margin-left: 3px;
     width: 87px;
     height: 93px;
     border-radius: 15px 0px 0px 15px;
