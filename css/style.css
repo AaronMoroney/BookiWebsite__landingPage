@@ -237,7 +237,6 @@ nav {
 
 .regularCardsImage {
     margin: 3px 3px 0px 3px;
-    
     height: 80px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
@@ -446,26 +445,59 @@ footer {
 
     .accomodationsSection {
         flex-direction: column;
-        height: 850px;
+        height: 650px;
     }
     .regularAccomodationsContainer {
         margin-right: 0px;
+        flex-grow: 0;
     }
 
+    .cardsContainer {
+        width: 100%;
+    }
+    .regularCards {
+        width: 30%;
+    }
     .popularAccomodationsSection {
         margin-left: 0px;
         margin-top: 10px;
+        height: 220px;
+        flex-grow: 0;
         
     }
 
+    .popularCardsContainer {
+        display: flex;
+        flex-direction: row;
+        height: 160px;
+    }
+
     .popularCards {
-        width: 350px;
+        width: 30%;
+        height: 145px;
+    }
+
+    .popularCardContent {
+        display: flex;
+        flex-direction: column;
     }
 
     .popularContentImage {
-        width: 200px;
+        width: 186.75px;
+        height: 80px;
+        border-radius: 15px 15px 0px 0px;
     }
 
+    .popularContentInfo {
+        line-height: 0.5px;
+        margin-left: 10px; 
+        
+    }
+
+    .popularContentTitle {
+        margin-top: 0px;
+        line-height: 0px;
+    }
     .activitiesSection {
         height: 550px;
     }
