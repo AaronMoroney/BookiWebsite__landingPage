@@ -284,6 +284,7 @@ nav {
 .popularContentImage {
     margin-top: 3px;
     margin-left: 3px;
+    margin-right: 3px;
     width: 87px;
     height: 93px;
     border-radius: 15px 0px 0px 15px;
@@ -482,10 +483,15 @@ footer {
         flex-direction: column;
     }
 
+    .popularContentImageSpan {
+        margin: 3px 3px 0px 3px;
+    }
+
     .popularContentImage {
-        width: 186.75px;
+        width: 100%;
         height: 80px;
         border-radius: 15px 15px 0px 0px;
+        margin: 0px;
     }
 
     .popularContentInfo {
@@ -498,28 +504,66 @@ footer {
         margin-top: 0px;
         line-height: 0px;
     }
+
     .activitiesSection {
-        height: 550px;
+        height: 450px;
     }
 
-    .activitiesGalleryContainer {
-        height: 500px;
+    .activitiesCards {
+        height: 180px;
+    }
+
+    .activitiesCards2 {
+        height: 180px;
+    }
+
+    .activitiesCards3 {
+        height: 180px;
+    }
+
+    .activitiesCards4 {
+        height: 180px;
+    }
+
+    .activitiesCards5 {
+        height: 180px;
+    }
+
+    .activitiesCards6 {
+        height: 180px;
+        margin-top: 0px;
+    }
+
+    .activitiesImg1 {
+        height: 140px;
+    }
+
+    .activitiesImg2 {
+        height: 140px;
+    }
+
+    .activitiesImg3 {
+        height: 140px;
+    }
+
+    .activitiesImg4 {
+        height: 140px;
+    }
+
+    .activitiesImg5 {
+        height: 140px;
+    }
+
+    .activitiesImg6 {
+        height: 140px;
+
     }
 
     .activitiesCardsSpan {
         display: flex;
-        margin-top: 0px;
-    }
-
-    .activitiesImg6 {
-        width: 210px;
-        height: 95px;
-    }
-
-    .activitiesCards6 {
-        height: 134px;
-        margin-left: 30px;
-        margin-top: 0px
+        width: 100%;
+        margin-top: -180px;
+        justify-content: space-between;
     }
 }
 
