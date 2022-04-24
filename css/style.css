@@ -23,7 +23,7 @@ h3 {
 
 h4 {
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     margin-top: 15px;
 }
@@ -136,10 +136,7 @@ nav {
     color: #0065FC;
 }
 
-.accomodationSpan {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-}
+
 
 /* search functionality */
 
@@ -186,6 +183,11 @@ nav {
 
 /* Accomodations Section */
 
+.accomodationSpan {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
 .accomodationsSection {
     display: flex;
     width: 100%;
@@ -197,12 +199,12 @@ nav {
     border-radius: 20px;
     margin-right: 13px;
     padding: 0px 28px;
-    flex-grow: 2;
+    flex-grow: 4;
+    
 }
 
 .cardsContainer {
-    width: 550px;
-    height: 310px;
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -211,10 +213,17 @@ nav {
 
 .regularCards {
     height: 145px;
-    width: 170px;
+    width: 32%;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 5px 20px -9px rgba(0,0,0,0.29);
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .cardContent {
@@ -423,7 +432,7 @@ nav {
 footer {
     background-color: #F2F2F2;
     margin: 0-34.75px;
-    height: 150px;
+    height: 160px;
     padding-bottom: 30px;
 }
 .footerItemDiv {
