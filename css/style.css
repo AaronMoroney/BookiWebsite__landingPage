@@ -173,7 +173,7 @@ nav {
     font-family: raleway;
     font-weight: 600;
     padding-left: 10px;
-    padding-right: none;
+    
     overflow: hidden;
 }
 
@@ -665,9 +665,9 @@ footer {
 
     .navLinksDiv ul li:hover {
         border-top: none;
-        border-top-width: none;
+        
         border-top-style: none;
-        border-top-color: none;;
+        
     }
 
     /* search functionality mobile */
@@ -760,7 +760,7 @@ footer {
         margin-top: 10%;
         padding: 0px;
         margin-right: 0px;
-        flex-grow: none;
+        
     }
 
     .cardsContainer {
@@ -789,8 +789,10 @@ footer {
     }
 
     .popularAccomodationsSectionTitle {
-        margin-left: 5%;
-        margin-right: 5%;
+        min-width: 304px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .popularCardsContainer {
@@ -875,6 +877,8 @@ footer {
         height: unset;
     }
 
+
+
     .activitiesImg1 {
         height: 110px;
         width: auto;
@@ -903,6 +907,26 @@ footer {
     .activitiesImg6 {
         height: 110px;
         width: auto;
+    }
+
+    .activitiesCardsSpan2-3 {
+        width: 100%;
+    }
+
+    .accomodationActivities__heading {
+        min-width: 304px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .filterSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttonSpan1 {
+        margin-left: 0px;
     }
 
     /* unsetting on mobile */
