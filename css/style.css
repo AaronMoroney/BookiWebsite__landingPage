@@ -173,7 +173,6 @@ nav {
     font-family: raleway;
     font-weight: 600;
     padding-left: 10px;
-    
     overflow: hidden;
 }
 
@@ -184,6 +183,10 @@ nav {
     color: white;
     height: 36px;
     flex-basis: 65px;
+}
+
+.fa-solid.fa-magnifying-glass {
+    display: none;
 }
 
 /* Accomodations Section */
@@ -475,6 +478,10 @@ footer {
 @media screen and (min-width:768px) and (max-width:991px) {
     /* tablet */
 
+    .fa-solid.fa-magnifying-glass {
+        display: none;
+    }
+
     .accomodationsSection {
         flex-direction: column;
         height: 650px;
@@ -665,23 +672,27 @@ footer {
 
     .navLinksDiv ul li:hover {
         border-top: none;
-        
         border-top-style: none;
-        
     }
 
     /* search functionality mobile */
 
     .searchBoxContainer {
-        min-width: 325px;
-        max-width: 686px;
+        min-width: 270px;
         min-height: 50px;
         max-height: 100px;
-        
     }
 
     .searchWrapper {
         width: 230px;
+    }
+
+    .searchButtonText {
+        display: none;
+    }
+
+    .fa-solid.fa-magnifying-glass {
+        display: inline;
     }
 
     .infoIconWrapper {
@@ -821,7 +832,6 @@ footer {
     /* activities mobile */
 
     .activitiesSection {
-
         all: unset
     }       
 
