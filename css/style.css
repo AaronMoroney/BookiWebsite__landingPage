@@ -69,19 +69,22 @@ nav {
     font-weight: 400;
 }
 
-.navLinksDiv ul li a:hover {
-    content: "";
-    width: 100%;
-    color: #0065FC;
-    display: block;
-    margin: 0;
-}
+@media screen and (min-width:768px) {
 
-.navLinksDiv li:hover {
-    border-top: #0065FC;
-    border-top-width: 2px;
-    border-top-style: solid;
-    border-top-color: #0065FC;
+    .navLinksDiv ul li a:hover {
+        content: "";
+        width: 100%;
+        color: #0065FC;
+        display: block;
+        margin: 0;
+    }
+
+    .navLinksDiv li:hover {
+        border-top: #0065FC;
+        border-top-width: 2px;
+        border-top-style: solid;
+        border-top-color: #0065FC;
+    }
 }
 
 /* filters */
@@ -654,26 +657,46 @@ footer {
         width: 100px;
     }
 
+    /* nav mobile */
+
     .navLinksDiv {
         text-align: center;
+        width: 120%;
     }
-
+    
     .navLinksDiv ul li {
         list-style: none;
-        display: inline-block;
-        padding: 20px;
-        position: relative;   
+        padding: 20px;  
         padding-top: 0px;
     }
     
     ul {
         padding-inline-start: 0px;
+        display: flex;
+    }
+    
+    li {
+        width: 50%;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color:#F2F2F2;
     }
 
-    .navLinksDiv ul li:hover {
-        border-top: none;
-        border-top-style: none;
+    .navLinksDiv ul li a:active {
+        content: "";
+        width: 100%;
+        color: #0065FC;
+        display: block;
+        margin: 0;
     }
+
+    .navLinksDiv ul li:active {
+        width: 50%;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: #0065FC;
+    }
+    
 
     /* search functionality mobile */
 
@@ -708,35 +731,7 @@ footer {
         border-radius: 10px;
     }
 
-    
-
-    /* have to figure this out /*
-    
-    .navLinksDiv ul li a:active ::before {
-        content: "";
-       
-        color:#F2F2F2;
-        display: block;
-        margin: 0;
-        border-top: #F2F2F2;
-        border-top-width: 100%;
-        border-top-style: solid;
-    }
-
-    .navLinksDiv ul li a:active ::after {
-        content: "";
-        
-        color: #0065FC;
-        display: block;
-        margin: 0;
-        border-top:#0065FC;
-        border-top-width: 100%;
-        border-top-style: solid;
-    }
-    */
-
     /* filters mobile */
-
     
     .buttonSpan1 {
         padding: 10px;
@@ -957,7 +952,8 @@ footer {
         flex-direction: column;
     }
 
-
-}   
-
-    
+    .footerUl {
+        display: flex;
+        flex-direction: column;
+    }
+}
